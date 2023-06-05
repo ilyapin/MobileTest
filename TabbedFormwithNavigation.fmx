@@ -19,7 +19,7 @@ object TabbedwithNavigationForm: TTabbedwithNavigationForm
     Size.Height = 596.000000000000000000
     Size.PlatformDefault = False
     TabHeight = 49.000000000000000000
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 0
     TabPosition = PlatformDefault
     Sizes = (
@@ -35,13 +35,13 @@ object TabbedwithNavigationForm: TTabbedwithNavigationForm
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Size.Width = 100.000000000000000000
       Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'tabitemfavorites'
       TabOrder = 0
-      Text = 'TabItem1'
+      Text = 'First Tab'
       ExplicitSize.cx = 101.000000000000000000
       ExplicitSize.cy = 49.000000000000000000
       object TabControl2: TTabControl
@@ -148,13 +148,13 @@ object TabbedwithNavigationForm: TTabbedwithNavigationForm
       CustomIcon = <
         item
         end>
-      IsSelected = False
+      IsSelected = True
       Size.Width = 100.000000000000000000
       Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'tabitemcontacts'
       TabOrder = 0
-      Text = 'TabItem2'
+      Text = 'Second Tab'
       ExplicitSize.cx = 102.000000000000000000
       ExplicitSize.cy = 49.000000000000000000
       object ToolBar3: TToolBar
